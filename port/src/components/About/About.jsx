@@ -13,7 +13,7 @@ function About() {
             Hi, I am
           </h1>
           <h2 className='text-4xl sm:text-6xl md:text-7xl font-bold text-white mb-2 leading-tight'>
-            Bishnu Singh
+            Aditya Raj
           </h2>
           <h3 className='text-lg sm:text-2xl md:text-xl lg:text-2xl font-semibold mb-2 text-[#8245ec] leading-tight tracking-tighter space-x-2'>
             <span className='text-white'>
@@ -21,8 +21,8 @@ function About() {
             </span>
             <ReactTypingEffect
               text={[
-                'Senior Software Engineer',
-                'Technical Team Leader',
+                'Front End Devloper',
+                'React Developer',
                 'Coder',
               ]}
               speed={50}
@@ -35,8 +35,8 @@ function About() {
               className='font-bold ' />
           </h3>
           <p className='text-sm sm:text-lg md:text-lg text-gray-300 mt-2 leading-relaxed'>
-            I’m a Technical Team Leader with over 15 years of experience in software development, project management, and delivering enterprise-grade solutions. I’ve led diverse projects across industries using technologies like VB6.0, VB.NET, ASP.NET, RESTful APIs, SQL Server, and Oracle (PL/SQL). Proficient with tools such as Crystal Reports, TOAD, and VSS. I’m passionate about leading collaborative, agile teams that value open communication, innovation, and continuous learning.
-            <div className='flex flex-col items-center md:items-start'>
+            A passionate web developer with 1.5 years of working experience and a degree in Bachelor of Engineering. My expertise spans ASP.NET Web Forms, React JS, Tailwind CSS, and SQL, allowing me to build responsive, user-friendly applications and manage databases efficiently. Explore my portfolio to see projects like a dynamic Health Insurance web application, an animated OCHI DESIGN React App, and a robust Advance TODO App. I am dedicated to delivering high-quality solutions and bringing digital visions to life.
+            {/* <div className='flex flex-col items-center md:items-start'>
               <p className='space-x-2 font-bold flex flex-row justify-center md:justify-start items-center mt-1'>
                 <span className='text-gray-300 font-bold underline-offset-2 underline decoration-[#8245ec]'>
                 Domain Specialization
@@ -56,7 +56,7 @@ function About() {
                   <span>{cursor}</span>
                 )}
                 className='font-bold text-[#8245ec] ' />
-            </div>
+            </div> */}
           </p>
           <a
             href="https://drive.google.com/file/d/1k0ZDLC3bNAirqRRVKC7Eg01AWuVg-gLv/view?usp=sharing" target='_blank'

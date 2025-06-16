@@ -29,7 +29,7 @@ function Experience() {
             </div>
 
             <div className={`w-full sm:max-w-md p-4 sm:p-8 rounded-2xl  border border-white bg-gray-900 backdrop-blur-md shadow-[0_0_20px_1px_rgba(130,69,236,0.3)] ${index % 2 === 0 ? "sm:ml-0" : "sm:mr-0"
-              } sm:ml-34 sm:mr-34 ml-6 transform transition-transform duration-300 hover:scale-105`}>
+              } sm:ml-34 sm:mr-34 ml-6 sm:ml-0  transform transition-transform duration-300 hover:scale-105`}>
               <div className='flex items-center space-x-6'>
                 <div className='w-16 h-16 bg-white rounded-lg overflow-hidden'>
                   <img className='w-full h-full object-fill' src={experience.img} alt={experience.company} />

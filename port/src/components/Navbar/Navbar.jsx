@@ -43,8 +43,8 @@ const Navbar = () => {
       <div className='text-white py-5 flex justify-between items-center'>
         <div className='font-semibold text-lg cursor-pointer'>
           <span className='text-[#8245ec]'>&lt;</span>
-          <span className='text-white'>Bishnu </span>
-          {/* <span className='text-[#8245ec]'>/</span> */}
+          <span className='text-white'>Aditya </span>
+          <span className='text-white'>Raj </span>
           <span className='text-white'>Singh</span>
           <span className='text-[#8245ec]'>&gt;</span>
         </div>
@@ -62,7 +62,7 @@ const Navbar = () => {
 
         <div className='hidden md:flex  space-x-4'>
           <a
-            href="https://github.com/"
+            href="https://github.com/rajAditya-singh"
             target="_blank"
             rel="noopener noreferrer"
             className='text-gray-200 hover:text-[#8245ec]'
@@ -70,7 +70,7 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/feed/"
+            href="https://www.linkedin.com/in/aditya-raj-singh-20b5a6313/"
             target="_blank"
             rel="noopener noreferrer"
             className='text-gray-200 hover:text-[#8245ec]'
