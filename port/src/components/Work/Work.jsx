@@ -70,7 +70,7 @@ function Work() {
               <div className='lg:px-8 px-8 py-1'>
                 <h3 className='text-white lg:text-lg text-md mb-1 font-bold'>{selectedProject.title}</h3>
                 <p className='text-gray-400 mb-2 lg:text-sm text-xs'>{selectedProject.description}</p>
-                <div className='flex flex-wrap gap-2 mb-2 items-center'>
+                <div className='flex flex-wrap gap-2 mb-1 items-center pb-1'>
                   {selectedProject.tags.map((tag, index) => (
                     <span
                       key={index}
@@ -78,17 +78,29 @@ function Work() {
                     >{tag}</span>
                   ))}
 
+                </div>
+                <div className='flex space-x-4 justify-between text-white mb-2'>
+                  {selectedProject.github && (
+                    <a
+                    href={selectedProject.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-gray-800 hover:bg-purple-800  lg:px-4 lg:py-2 px-2 py-2 rounded-lg lg:text-md text-sm font-semibold text-center w-1/2"
+                    >
+                      View Code
+                    </a>
+                  )}
                   {selectedProject.webapp && (
                     <a
-                      href={selectedProject.webapp}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-purple-600 hover:bg-purple-800 text-white lg:px-4 lg:py-1 px-2 py-1 rounded-2xl lg:text-lg text-sm font-semibold text-center"
+                    href={selectedProject.webapp}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-purple-600 hover:bg-purple-800  lg:px-4 lg:py-2 px-2 py-2 rounded-lg lg:text-md text-sm font-semibold text-center w-1/2"
                     >
                       View Live
                     </a>
                   )}
-                </div>
+                  </div>
               </div>
 
             </div>
