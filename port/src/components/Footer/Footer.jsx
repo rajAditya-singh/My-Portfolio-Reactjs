@@ -12,7 +12,7 @@ function Footer() {
   return (
     <footer className=' text-white py-8 px-[7vw] md:px-[7vw] lg:px-[18vw] font-sans'>
       <div className='text-center mx-auto'>
-        <h2 className='font-semibold text-2xl text-purple-500'>Bishnu Singh</h2>
+        <h2 className='font-semibold text-2xl text-purple-500'>Aditya Raj Singh</h2>
         
         <nav className='flex flex-wrap justify-center space-x-4 sm:space-x-6 mt-4'>
           {[
@@ -55,7 +55,7 @@ function Footer() {
         </div>
 
          <p className="text-sm text-gray-400 mt-6">
-          © 2025 Tarun Kaushik. All rights reserved.
+          © 2025 Aditya Raj Singh. All rights reserved.
         </p>
       </div>
     </footer>

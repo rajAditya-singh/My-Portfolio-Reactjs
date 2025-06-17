@@ -42,6 +42,8 @@ import bharat from './assets/company_logo/bharatlogo.jfif'
 // Education Section Logo's
 import uptu from './assets/education_logo/uptu.png'
 import tmbu from './assets/education_logo/tmbu.jfif'
+import cu from './assets/education_logo/cu.png'
+import sunbeam from './assets/education_logo/sunbeam.png'
 
 // Project Section Logo's
 import rrpolicy from './assets/work_logo/rrpolicy.jpg'
@@ -150,21 +152,30 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: uptu,
-    school: "AKTU, Lucknow",
-    date: "Sept 2004 - Sept 2006",
-    grade: "67.80%",
-    desc: "I have completed my Master's degree (MCA) in Computer Applications from Dr. A. P. J. Abdul Kalam Technical University, Lucknow. During my time at AKTU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at AKTU has been instrumental in shaping my technical abilities and professional growth.",
-    degree: "Master of Computer Applications - MCA",
+    img: cu,
+    school: "Chandigarh University",
+    date: "Aug 2020 - May 2024",
+    grade: "7 CGPA",
+    desc: "Earned my Bachelor of Engineering with a strong focus on software development, full-stack web technologies, and programming fundamentals. Throughout the program, I worked extensively with technologies like React.js, SQL, C++, Python, and Tailwind CSS, applying them in academic projects and internships. This hands-on approach helped me develop both front-end and back-end skills. I also took part in extracurricular activities such as the All India University Cricket Tournament, which enhanced my teamwork and time management abilities alongside academics. My experience at Chandigarh University prepared me to approach real-world tech challenges with a practical mindset and a strong technical foundation.",
+    degree: "Bachelor of Engineering(CSE)",
   },
   {
     id: 1,
-    img: tmbu,
-    school: "T.M.Bhagalpur University, Bhagalpur",
-    date: "Sept 1998 - Dec 2002",
-    grade: "67.75%",
-    desc: "Pursued a rigorous undergraduate program focused on the fundamental and advanced principles of mathematics, including algebra, calculus, real and complex analysis, differential equations, and numerical methods. Gained a strong foundation in logical reasoning, abstract thinking, and quantitative analysis. The program emphasized both theoretical understanding and practical problem-solving, preparing me to apply mathematical concepts across diverse academic and real-world contexts. Actively engaged in independent study and collaborative projects that enhanced my analytical and research skills.",
-    degree: "Bachelor of Science - BSC (Maths)",
+    img: sunbeam,
+    school: "Sunbeam Academy",
+    date: "April 2018 - March 2019",
+    grade: "69.2%",
+    desc: "Completed my Class 12th with a focus on science and mathematics, achieving a solid academic foundation with 69.2%. During this time, I developed analytical thinking, problem-solving skills, and a disciplined approach to learning, which later supported my transition into engineering and programming. The structured academic environment at Sunbeam Academy played a key role in shaping my interest in technology and logical reasoning.",
+    degree: "Higher Secondary(12th Grade)",
+  },
+  {
+    id: 2,
+    img: sunbeam,
+    school: "Sunbeam Academy",
+    date: "April 2016 - March 2017",
+    grade: "7.4 CGPA",
+    desc: "Completed Class 10th with a score of 70.3%, laying a strong academic foundation in core subjects like mathematics and science. During this time, I developed early interest in problem-solving, logical reasoning, and structured learning—skills that later guided my choice to pursue engineering. My experience at Sunbeam Academy also helped instill discipline, consistency, and a curiosity for how things work, which naturally evolved into a passion for technology and development.",
+    degree: "Secondary School(12th Grade)",
   },
 
 ];
