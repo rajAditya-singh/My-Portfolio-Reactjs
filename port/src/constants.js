@@ -1,102 +1,102 @@
 // Skills Section Logo's
-import htmlLogo from './assets/tech_logo/html.png';
-import javascriptLogo from './assets/tech_logo/javascript.png';
-import githubLogo from './assets/tech_logo/github.png';
-import vscodeLogo from './assets/tech_logo/vscode.png';
-import postmanLogo from './assets/tech_logo/postman.png';
-import vercelLogo from './assets/tech_logo/vercel.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
-import ASPNET from './assets/tech_logo/ASP.NET.png'
-import Sql from './assets/tech_logo/sql.png'
-import cssLogo from './assets/tech_logo/css.png';
-import sassLogo from './assets/tech_logo/sass.png';
-import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
-import reduxLogo from './assets/tech_logo/redux.png';
-import nextjsLogo from './assets/tech_logo/nextjs.png';
-import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
-import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
-import nodejsLogo from './assets/tech_logo/nodejs.png';
-import expressjsLogo from './assets/tech_logo/express.png';
-import mysqlLogo from './assets/tech_logo/mysql.png';
-import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
-import cLogo from './assets/tech_logo/c.png';
-import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
-import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
-import gitLogo from './assets/tech_logo/git.png';
-import mcLogo from './assets/tech_logo/mc.png';
-import figmaLogo from './assets/tech_logo/figma.png';
-import netlifyLogo from './assets/tech_logo/netlify.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
+import htmlLogo from "./assets/tech_logo/html.png";
+import javascriptLogo from "./assets/tech_logo/javascript.png";
+import githubLogo from "./assets/tech_logo/github.png";
+import vscodeLogo from "./assets/tech_logo/vscode.png";
+import postmanLogo from "./assets/tech_logo/postman.png";
+import vercelLogo from "./assets/tech_logo/vercel.png";
+import csharpLogo from "./assets/tech_logo/csharp.png";
+import ASPNET from "./assets/tech_logo/ASP.NET.png";
+import Sql from "./assets/tech_logo/sql.png";
+import cssLogo from "./assets/tech_logo/css.png";
+import sassLogo from "./assets/tech_logo/sass.png";
+import reactjsLogo from "./assets/tech_logo/reactjs.png";
+import angularLogo from "./assets/tech_logo/angular.png";
+import reduxLogo from "./assets/tech_logo/redux.png";
+import nextjsLogo from "./assets/tech_logo/nextjs.png";
+import tailwindcssLogo from "./assets/tech_logo/tailwindcss.png";
+import gsapLogo from "./assets/tech_logo/gsap.png";
+import materialuiLogo from "./assets/tech_logo/materialui.png";
+import bootstrapLogo from "./assets/tech_logo/bootstrap.png";
+import springbootLogo from "./assets/tech_logo/springboot.png";
+import nodejsLogo from "./assets/tech_logo/nodejs.png";
+import expressjsLogo from "./assets/tech_logo/express.png";
+import mysqlLogo from "./assets/tech_logo/mysql.png";
+import mongodbLogo from "./assets/tech_logo/mongodb.png";
+import firebaseLogo from "./assets/tech_logo/firebase.png";
+import cLogo from "./assets/tech_logo/c.png";
+import cppLogo from "./assets/tech_logo/cpp.png";
+import javaLogo from "./assets/tech_logo/java.png";
+import pythonLogo from "./assets/tech_logo/python.png";
+import typescriptLogo from "./assets/tech_logo/typescript.png";
+import gitLogo from "./assets/tech_logo/git.png";
+import mcLogo from "./assets/tech_logo/mc.png";
+import figmaLogo from "./assets/tech_logo/figma.png";
+import netlifyLogo from "./assets/tech_logo/netlify.png";
+import postgreLogo from "./assets/tech_logo/postgre.png";
 // Experience Section Logo's
-import RRFin from './assets/company_logo/RRFin.jfif'
-import techplement from './assets/company_logo/techplement.jfif'
-import bharat from './assets/company_logo/bharatlogo.jfif'
+import RRFin from "./assets/company_logo/RRFin.jfif";
+import techplement from "./assets/company_logo/techplement.jfif";
+import bharat from "./assets/company_logo/bharatlogo.jfif";
 
 // Education Section Logo's
-import uptu from './assets/education_logo/uptu.png'
-import tmbu from './assets/education_logo/tmbu.jfif'
-import cu from './assets/education_logo/cu.png'
-import sunbeam from './assets/education_logo/sunbeam.png'
+import uptu from "./assets/education_logo/uptu.png";
+import tmbu from "./assets/education_logo/tmbu.jfif";
+import cu from "./assets/education_logo/cu.png";
+import sunbeam from "./assets/education_logo/sunbeam.png";
 
 // Project Section Logo's
-import rrpolicy from './assets/work_logo/rrpolicy.jpg'
-import ochi from './assets/work_logo/ochi.png'
-import cloud from './assets/work_logo/cloud.png'
-import todo from './assets/work_logo/todo.png'
-import unorder from './assets/work_logo/unorder.png'
-import weather from './assets/work_logo/weather.png'
+import rrpolicy from "./assets/work_logo/rrpolicy.jpg";
+import ochi from "./assets/work_logo/ochi.png";
+import cloud from "./assets/work_logo/cloud.png";
+import todo from "./assets/work_logo/todo.png";
+import unorder from "./assets/work_logo/unorder.png";
+import weather from "./assets/work_logo/weather.png";
 
 export const SkillsInfo = [
   {
-    title: 'FrontEnd',
+    title: "FrontEnd",
     skills: [
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'ASP.NET', logo: ASPNET },
-      { name: 'Next JS', logo: nextjsLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "React JS", logo: reactjsLogo },
+      { name: "Tailwind CSS", logo: tailwindcssLogo },
+      { name: "Redux", logo: reduxLogo },
+      { name: "HTML", logo: htmlLogo },
+      { name: "CSS", logo: cssLogo },
+      { name: "ASP.NET", logo: ASPNET },
+      { name: "Next JS", logo: nextjsLogo },
     ],
   },
   {
-    title: 'Languages',
+    title: "Languages",
     skills: [
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'SQL', logo: Sql },
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'My SQL', logo: mysqlLogo },
+      { name: "JavaScript", logo: javascriptLogo },
+      { name: "Python", logo: pythonLogo },
+      { name: "C-Sharp", logo: csharpLogo },
+      { name: "SQL", logo: Sql },
+      { name: "HTML", logo: htmlLogo },
+      { name: "C++", logo: cppLogo },
+      { name: "My SQL", logo: mysqlLogo },
     ],
   },
   {
-    title: 'Database/BackEnd',
+    title: "Database/BackEnd",
     skills: [
-      { name: 'Microsoft SQL Server', logo: Sql },
-      { name: 'My SQL', logo: mysqlLogo },
-       { name: 'Node JS', logo: nodejsLogo },
+      { name: "Microsoft SQL Server", logo: Sql },
+      { name: "My SQL", logo: mysqlLogo },
+      { name: "Node JS", logo: nodejsLogo },
     ],
   },
   {
-    title: 'Tools',
+    title: "Tools",
     skills: [
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Git', logo: gitLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      { name: "GitHub", logo: githubLogo },
+      { name: "VS Code", logo: vscodeLogo },
+      { name: "Postman", logo: postmanLogo },
+      { name: "Vercel", logo: vercelLogo },
+      { name: "Git", logo: gitLogo },
+      { name: "Netlify", logo: netlifyLogo },
+      { name: "Figma", logo: figmaLogo },
     ],
   },
 ];
@@ -105,31 +105,17 @@ export const experiences = [
   {
     id: 0,
     img: RRFin,
-    role: "Web Developer",
+    role: "Senior IT Associate (Web, Database & AI Integration)",
     company: "RR Financial Consultants Ltd",
     date: "Aug 2024 - Present",
-    desc: "As an IT Associate at RR Finance, my primary responsibilities revolve around comprehensive web development, with a specialized focus on ASP.NET Web Forms technology. I manage both front-end development and crucial database operations. My work involves leveraging SQL Server for various tasks, including data modeling, efficient querying, and performance optimization. Furthermore, I am responsible for designing and developing intuitive user interfaces, utilizing modern frameworks like Bootstrap and Tailwind CSS to ensure responsive and user-friendly experiences across all platforms.",
+    desc: "Working at RR Finance on financial platforms including IPO, NCD, and SME modules, with responsibilities spanning web development, database management, server operations, and AI integration. Develop and maintain ASP.NET Web Forms applications with dynamic SQL Server data handling and backend integration. Manage live IIS servers, deployments, database backups, restoration, query handling, and production support to ensure smooth system performance. Also build AI-driven solutions including internal chatbots and custom GPT tools to improve automation, operational efficiency, and business workflows across the organization.",
     skills: [
       "ASP.NET",
       "SQL Server",
       "Visual Studio Code 2010",
       "Web APIs",
       "C Sharp",
-      "Bootstrap Css"
-    ],
-  },
-  {
-    id: 1,
-    img: bharat,
-    role: "Front End Developer Intern",
-    company: "Bharat Intern",
-    date: "May 2024 – June 2024",
-    desc: "During my internship as a Front End Developer at Bharat Intern, I gained valuable hands-on experience in building responsive web applications. My key contributions included creating a responsive portfolio website, a Netflix UI clone, and a functional weather application. These projects were developed using core web technologies such as HTML, CSS, and JavaScript, enhancing my skills in front-end development and user interface creation.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Node Js",
+      "Bootstrap Css",
     ],
   },
   {
@@ -138,14 +124,23 @@ export const experiences = [
     role: "Front End Developer Intern",
     company: "TECHPLEMENT ",
     date: "June 2024 – July 2024",
-    desc: "As a Front End Developer Intern at TECHPLEMENT, I was responsible for the development of a Quiz Application using the MERN Stack. My work involved creating key components necessary for building quizzes, which included the functionality to add new questions and their corresponding options. This experience significantly enhanced my skills in full-stack development, with a particular focus on front-end implementation within a MERN environment.",
+    desc: "Worked on frontend development using React.js, Tailwind CSS, and the MERN stack at TECHPLEMENT. Developed a Quiz Application with dynamic question and option management, created an advanced TODO application with local storage integration, and built animated, responsive UI projects including the OCHI DESIGN React application. Gained hands-on experience in component-based architecture, responsive design, and modern frontend development practices.",
     skills: [
-      "HTML",
-      "CSS",
+      "React.js",
+      "Tailwind CSS",
       "JavaScript",
-      "Node JS",
-      "React JS",
+      "Component-Based Development",
+      "Responsive UI",
     ],
+  },
+  {
+    id: 2,
+    img: bharat,
+    role: "Front End Developer Intern",
+    company: "Bharat Intern",
+    date: "May 2024 – June 2024",
+    desc: "During my internship as a Front End Developer at Bharat Intern,I Worked on frontend development projects including a responsive personal portfolio, a food ordering website (UrOrder), and a dynamic weather application using HTML, CSS, JavaScript, and React.js. Gained practical experience in responsive web design, UI development, and building user-friendly web applications.",
+    skills: ["HTML", "CSS", "JavaScript", "React.js", "Responsive Web Design"],
   },
 ];
 
@@ -177,7 +172,6 @@ export const education = [
     desc: "Completed Class 10th with a score of 70.3%, laying a strong academic foundation in core subjects like mathematics and science. During this time, I developed early interest in problem-solving, logical reasoning, and structured learning—skills that later guided my choice to pursue engineering. My experience at Sunbeam Academy also helped instill discipline, consistency, and a curiosity for how things work, which naturally evolved into a passion for technology and development.",
     degree: "Secondary School(12th Grade)",
   },
-
 ];
 
 export const projects = [
@@ -197,7 +191,13 @@ export const projects = [
     description:
       "The OCHI DESIGN REACT APP project involved the creation of an engaging and visually dynamic website. This application was built primarily using React JS, ensuring a modern and component-based architecture. A key focus of this project was implementing sophisticated animations and interactive elements, achieved through the effective use of React Animations. Styling was meticulously handled with Tailwind CSS, allowing for a highly customizable and responsive design. The development process also leveraged Vite for a fast and optimized build experience, and incorporated various React Hooks to manage state and side effects, resulting in a smooth and interactive user experience.",
     image: ochi,
-    tags: ["React Js", "Tailwind CSS", "Vite", "React Animations", "React Hooks"],
+    tags: [
+      "React Js",
+      "Tailwind CSS",
+      "Vite",
+      "React Animations",
+      "React Hooks",
+    ],
     github: "https://github.com/rajAditya-singh/OCHI_design",
     webapp: "https://ochidesign-pied.vercel.app/",
   },
@@ -207,8 +207,15 @@ export const projects = [
     description:
       "The Advance TODO App is a robust and highly functional task management application. This project was developed using React JS, providing a modern and efficient front-end framework. The styling was implemented with Tailwind CSS, ensuring a clean, responsive, and customizable user interface. A key feature of this application is its state management, which is handled effectively using React-Redux, allowing for predictable and centralized data flow. Furthermore, the application utilizes local storage for data persistence, ensuring that user tasks are saved even after closing the browser. Developed in VS Code, this project showcases practical application development with advanced state management and data persistence.",
     image: todo,
-    tags: [" React Js", "Tailwind CSS", "React-Redux", "VS code", "Local Storage"],
-    github: "https://github.com/rajAditya-singh/chai-aur-react/tree/main/10todocontext",
+    tags: [
+      " React Js",
+      "Tailwind CSS",
+      "React-Redux",
+      "VS code",
+      "Local Storage",
+    ],
+    github:
+      "https://github.com/rajAditya-singh/chai-aur-react/tree/main/10todocontext",
     webapp: "https://todoadvance.vercel.app/",
   },
   {
@@ -241,5 +248,4 @@ export const projects = [
     github: "https://github.com/rajAditya-singh/urorder",
     webapp: "https://urorder.vercel.app/",
   },
-
-];  
+];

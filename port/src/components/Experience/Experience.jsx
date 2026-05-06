@@ -37,7 +37,7 @@ function Experience() {
 
                 <div className='flex flex-col justify-between'>
                   <div>
-                    <h3 className='text-xl sm:text-xl font-semibold text-white'>{experience.role}</h3>
+                    <h3 className='text-xl sm:text-lg font-semibold text-white'>{experience.role}</h3>
                     <h4 className='text-md sm:text-sm text-gray-300'>{experience.company}</h4>
                   </div>
                   <p className='text-sm mt-2 text-gray-500'>{experience.date}</p>

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactTypingEffect from 'react-typing-effect'
 import Tilt from 'react-parallax-tilt'
 import profileImage from '../../assets/profile2.png'
-import Resume from '../../assets/work_logo/my_updated_CV.pdf'
+import Resume from '../../assets/work_logo/My_Resume_05062026.pdf'
 
 function About() {
   return (
@@ -21,9 +21,9 @@ function About() {
             </span>
             <ReactTypingEffect
               text={[
-                'Front End Devloper',
-                'React Developer',
-                'Coder',
+                'Web Developer',
+                'AI Integration Engineer',
+                'Server & Database Operations',
               ]}
               speed={50}
               eraseSpeed={50}
@@ -35,7 +35,7 @@ function About() {
               className='font-bold ' />
           </h3>
           <p className='text-sm sm:text-lg md:text-lg text-gray-300 mt-2 leading-relaxed'>
-            A passionate web developer with 1.5 years of working experience and a degree in Bachelor of Engineering. My expertise spans ASP.NET Web Forms, React JS, Tailwind CSS, and SQL, allowing me to build responsive, user-friendly applications and manage databases efficiently. Explore my portfolio to see projects like a dynamic Health Insurance web application, an animated OCHI DESIGN React App, and a robust Advance TODO App. I am dedicated to delivering high-quality solutions and bringing digital visions to life.
+            I am a Web Developer and AI Integration Engineer with 2+ years of experience in building and managing real-world financial platforms. My expertise includes ASP.NET Web Forms, React.js, SQL Server, Tailwind CSS, live server handling, and database operations. Currently at RR Finance, I work on IPO, NCD, and SME platforms, handling dynamic data integration, backend operations, deployments, and production systems. I also build AI-driven solutions including internal chatbots and custom GPT tools to improve automation and workflow efficiency. Passionate about combining development, databases, and AI technologies to create scalable and impactful digital solutions.
             {/* <div className='flex flex-col items-center md:items-start'>
               <p className='space-x-2 font-bold flex flex-row justify-center md:justify-start items-center mt-1'>
                 <span className='text-gray-300 font-bold underline-offset-2 underline decoration-[#8245ec]'>
@@ -82,7 +82,7 @@ function About() {
           >
             <img
               src={profileImage}
-              alt="Bishnu Singh"
+              alt="Aditya Raj Singh"
               className='w-full h-full rounded-full object-cover   drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]'
             />
           </Tilt>
