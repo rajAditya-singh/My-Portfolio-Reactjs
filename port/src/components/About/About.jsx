@@ -2,7 +2,7 @@ import React from 'react'
 import ReactTypingEffect from 'react-typing-effect'
 import Tilt from 'react-parallax-tilt'
 import profileImage from '../../assets/profile2.png'
-import Resume from '../../assets/work_logo/My_Resume_05062026.pdf'
+import Resume from '../../assets/work_logo/My_Resume_17062026.pdf'
 
 function About() {
   return (

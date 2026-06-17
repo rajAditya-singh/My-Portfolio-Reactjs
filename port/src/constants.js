@@ -52,6 +52,12 @@ import cloud from "./assets/work_logo/cloud.png";
 import todo from "./assets/work_logo/todo.png";
 import unorder from "./assets/work_logo/unorder.png";
 import weather from "./assets/work_logo/weather.png";
+import nebula from "./assets/work_logo/Nebula.PNG"
+import rrguru from "./assets/work_logo/rrguru.png"
+import rrchatbot from "./assets/work_logo/rrchatbot.png"
+import rrfinance from "./assets/work_logo/rrfinance.png"
+
+
 
 export const SkillsInfo = [
   {
@@ -177,32 +183,68 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "RR Policy(Health Insurance)",
+    title: "Nebula AI – Voice Assistant Platform",
     description:
-      "At RR Finance, I specialized in web development, leveraging ASP.NET Web Forms technology. My responsibilities encompassed both comprehensive front-end development and robust database management using SQL Server. This included critical tasks like data modeling, efficient querying, and performance optimization to ensure seamless data flow. Furthermore, I was responsible for designing and building highly responsive and user-friendly interfaces, meticulously crafted with Bootstrap CSS",
-    image: rrpolicy,
-    tags: ["Asp.net", "C#", "JavaScript", "Bootstrap CSS", "Sql 2005/2012"],
-    // github: "#",
-    webapp: "https://ins.rrpolicy.com/main-mediclaim",
+      "Nebula AI is a real-time voice assistant platform built using React.js, Node.js, WebSockets, and Groq AI. The application enables natural voice conversations through speech recognition, voice activity detection, and low-latency AI responses. It features a responsive conversational interface, real-time communication, and an optimized voice interaction pipeline designed for performance and seamless user experience.",
+    image: nebula,
+    tags: [
+      "React.js",
+      "Node.js",
+      "WebSockets",
+      "Groq AI",
+      "Voice AI",
+      "VAD",
+    ],
+    github: "https://github.com/rajAditya-singh/nebula-ai",
+    webapp: "https://nebula-ai-h5gt.onrender.com/",
   },
   {
     id: 1,
-    title: "OCHI DESIGN REACT APP",
+    title: "RR Guru – AI-Powered Mutual Fund Advisory Assistant",
     description:
-      "The OCHI DESIGN REACT APP project involved the creation of an engaging and visually dynamic website. This application was built primarily using React JS, ensuring a modern and component-based architecture. A key focus of this project was implementing sophisticated animations and interactive elements, achieved through the effective use of React Animations. Styling was meticulously handled with Tailwind CSS, allowing for a highly customizable and responsive design. The development process also leveraged Vite for a fast and optimized build experience, and incorporated various React Hooks to manage state and side effects, resulting in a smooth and interactive user experience.",
-    image: ochi,
+      "Developed an AI-powered mutual fund advisory assistant for SIP planning, goal-based investing, portfolio allocation, and financial guidance. Built using OpenAI GPT customization, prompt engineering, financial calculation logic, and RR Finance knowledge datasets to deliver intelligent investment recommendations and financial insights. Click To view Prototype.",
+    image: rrguru,
     tags: [
-      "React Js",
-      "Tailwind CSS",
-      "Vite",
-      "React Animations",
-      "React Hooks",
+      "OpenAI GPT",
+      "Prompt Engineering",
+      "Financial AI",
+      "SIP Planning",
+      "Mutual Funds",
     ],
-    github: "https://github.com/rajAditya-singh/OCHI_design",
-    webapp: "https://ochidesign-pied.vercel.app/",
+    webapp: "https://chatgpt.com/g/g-69ba6940c850819183fa637e3a0ca7cb-rr-guru-mutual-fund-expert",
   },
   {
     id: 2,
+    title: "RR AI Chatbot",
+    description:
+      "Built an AI-powered chatbot for RR Finance to automate customer and internal query handling. Designed structured prompts, integrated company knowledge sources, and implemented AI-powered conversational workflows to improve support efficiency and user engagement.",
+    image: rrchatbot,
+    tags: [
+      "Generative AI",
+      "ASP.NET",
+      "OpenRouter",
+      "Groq AI",
+      "Prompt Engineering",
+    ],
+    github: "https://github.com/rajAditya-singh/RR-ChatBot",
+  },
+  {
+    id: 3,
+    title: "RR Finance IPO & NCD Portals",
+    description:
+      "Worked on RR Finance's official investment platform, developing and maintaining IPO and NCD portals using ASP.NET Web Forms and SQL Server. Implemented dynamic data rendering, backend integrations, and database-driven workflows to ensure accurate and real-time financial information delivery.",
+    image: rrfinance,
+    tags: [
+      "ASP.NET Web Forms",
+      "SQL Server",
+      "Bootstrap",
+      "JavaScript",
+      "FinTech",
+    ],
+    webapp: "https://www.rrfinance.com/OurProducts/Equity-IPO.aspx",
+  },
+  {
+    id: 4,
     title: "Advance TODO App",
     description:
       "The Advance TODO App is a robust and highly functional task management application. This project was developed using React JS, providing a modern and efficient front-end framework. The styling was implemented with Tailwind CSS, ensuring a clean, responsive, and customizable user interface. A key feature of this application is its state management, which is handled effectively using React-Redux, allowing for predictable and centralized data flow. Furthermore, the application utilizes local storage for data persistence, ensuring that user tasks are saved even after closing the browser. Developed in VS Code, this project showcases practical application development with advanced state management and data persistence.",
@@ -219,7 +261,34 @@ export const projects = [
     webapp: "https://todoadvance.vercel.app/",
   },
   {
-    id: 3,
+    id: 5,
+    title: "RR Policy(Health Insurance)",
+    description:
+      "At RR Finance, I specialized in web development, leveraging ASP.NET Web Forms technology. My responsibilities encompassed both comprehensive front-end development and robust database management using SQL Server. This included critical tasks like data modeling, efficient querying, and performance optimization to ensure seamless data flow. Furthermore, I was responsible for designing and building highly responsive and user-friendly interfaces, meticulously crafted with Bootstrap CSS",
+    image: rrpolicy,
+    tags: ["Asp.net", "C#", "JavaScript", "Bootstrap CSS", "Sql 2005/2012"],
+    // github: "#",
+    webapp: "https://ins.rrpolicy.com/main-mediclaim",
+  },
+  {
+    id: 6,
+    title: "OCHI DESIGN REACT APP",
+    description:
+      "The OCHI DESIGN REACT APP project involved the creation of an engaging and visually dynamic website. This application was built primarily using React JS, ensuring a modern and component-based architecture. A key focus of this project was implementing sophisticated animations and interactive elements, achieved through the effective use of React Animations. Styling was meticulously handled with Tailwind CSS, allowing for a highly customizable and responsive design. The development process also leveraged Vite for a fast and optimized build experience, and incorporated various React Hooks to manage state and side effects, resulting in a smooth and interactive user experience.",
+    image: ochi,
+    tags: [
+      "React Js",
+      "Tailwind CSS",
+      "Vite",
+      "React Animations",
+      "React Hooks",
+    ],
+    github: "https://github.com/rajAditya-singh/OCHI_design",
+    webapp: "https://ochidesign-pied.vercel.app/",
+  },
+  
+  {
+    id: 7,
     title: "Cloud Management React App",
     description:
       "The Cloud Management project is a highly responsive web application designed for managing cloud-related functionalities. Developed using React JS, it provides a modern and efficient single-page application experience. The entire interface is styled with Tailwind CSS, ensuring a sleek, customizable, and adaptive design that looks great on various devices and screen sizes. This project emphasizes clean code and a user-friendly interface, demonstrating proficiency in building scalable and responsive web solutions within a modern development environment like VS Code.",
@@ -229,7 +298,7 @@ export const projects = [
     webapp: "https://cloudmanagementreactapp.vercel.app/",
   },
   {
-    id: 4,
+    id: 8,
     title: "Weather App",
     description:
       "The Weather App is a responsive web application designed to provide real-time weather information. This project was developed using fundamental web technologies: HTML for structuring the content, CSS for styling to ensure an appealing and user-friendly interface, and JavaScript for implementing the core functionality, including fetching weather data and dynamically updating the UI. This application was built as part of an internship task, showcasing proficiency in creating interactive and responsive web experiences using standard front-end tools and developed within VS Code.",
@@ -239,7 +308,7 @@ export const projects = [
     webapp: "https://techplement-weather-app.vercel.app/",
   },
   {
-    id: 5,
+    id: 9,
     title: "Food Ordering Website",
     description:
       "The Food Ordering Website is a dynamic web application designed to facilitate online food orders. This project was developed using foundational web technologies: HTML for structuring the various sections of the site, CSS for styling to create an appealing and intuitive user interface, and JavaScript for implementing interactive functionalities such as menu selection, order processing, and possibly form validation. This application showcases proficiency in building complete, user-friendly web experiences using standard front-end tools, all developed within VS Code.",
