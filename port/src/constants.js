@@ -52,7 +52,7 @@ import cloud from "./assets/work_logo/cloud.png";
 import todo from "./assets/work_logo/todo.png";
 import unorder from "./assets/work_logo/unorder.png";
 import weather from "./assets/work_logo/weather.png";
-import nebula from "./assets/work_logo/Nebula.PNG"
+import nebula from "./assets/work_logo/Nebula.png"
 import rrguru from "./assets/work_logo/rrguru.png"
 import rrchatbot from "./assets/work_logo/rrchatbot.png"
 import rrfinance from "./assets/work_logo/rrfinance.png"
